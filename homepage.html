@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Turisteando like a regio</title>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="scripts/main.js"></script>
+        <meta name="description" content="Discover Nuevo Leon, its characteristics and some places that you can visit">
+        <meta name="keywords" content="Nuevo Leon, Tourism, Pueblos magicos, Mexico, Travel">
+        <meta name="author" content="Diana Figueroa Gonzalez, Alvaro Emmanuel Soriano Sanchez, Moises Lopez Gonzalez">
+        <meta name="copyright" content="Turisteando like a regio">
+    </head>
+    <body>
+        <header>
+          <div width="100%">
+            <div class="banner">
+                <img class="banner_img" src="assets/1_banner.jpeg" alt="Turisteando like a regio banner">
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="header_selected" href="homepage.html"><i class="homepage"></i>Home</a></li>
+                    <li><a href="villa_de_santiago.html"><i class="sites_icon"></i>Villa de Santiago</a></li>
+                    <li><a href="arteaga.html"><i class="sites_icon"></i>Arteaga</a></li>
+                    <li><a href="linares.html"><i class="sites_icon"></i>Linares</a></li>
+                    <li><a href="about_us.html"><i class="about_us_icon"></i>About Us</a></li>
+                </ul>
+            </nav>
+          </div>
+        </header>
+        <main>
+          <div id="background_1">
+          <p lang="es">
+            This webpage was created for people to know about Nuevo Leon's "pueblos mágicos" and
+            to give information about these places, their history, important local places to visit, and the
+            food recommendations of the place, also promoting national tourism by showing the places of our
+            nation that have a variety of options for people to come and visit.</p>
+          <h1 class="title_1">Nuevo Leon</h1>
+          <p>
+            Nuevo Leon, which official name is "Estado Libre y Soberano de Nuevo Leon" is one of the 32 states
+            that conform Mexico. Its capital and most populous city is Monterrey which has the highest
+            gross domestic product of all metropolitan areas in Mexico and is the 3rd most-populated
+            metropolitan area in the country!</p>
+          <p lang="es">
+            Nuevo Leon's culture is a mixture of cultures among which the aboriginal, the Spanish and the
+            American stand out. Being famous for its fairs, norteña music and a great spot for meat eaters
+            with cabrito served with charros.</p>
+          </div>
+          <div class="quiz_background">
+            <div class="w3-container">
+              <div class="w3-half">
+                <table width=100% >
+              <tr>
+                <td>
+                  <h2>Take a Quiz!</h2>
+                    <table>
+                      <tr>
+                        <td>
+                          <div>
+                            <p class="question">1. What is the official name of Nuevo Leon?</p>
+                            <ul>
+                              <input id="correct1" name="q1" type="radio" value="1">
+                              <label>The free and sovereign state of Nuevo Leon</label>
+                              <br>
+                              <input type="radio" value="0" name="q1">
+                              <label>The free Nuevo Leon</label>
+                              <br>
+                              <input type="radio" value="0" name="q1">
+                              <label>The sovereign state of Nuevo Leon</label>
+                              <br>
+                              <input type="radio" name="q1" value="0">
+                              <label>The free state of Nuevo Leon </label>
+                            </ul>
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p class="question">2. How many states conform Mexico?</p>
+                            <ul>
+                              <input type="radio" value="0" name="q2">
+                              <label>46</label>
+                              <br>
+                              <input type="radio" value="0" name="q2">
+                              <label>37</label>
+                              <br>
+                              <input id="correct2" type="radio" value="1" name="q2">
+                              <label>32</label>
+                              <br>
+                              <input type="radio" value="0" name="q2">
+                              <label>23</label>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div>
+                            <p class="question">3. Which is the capital of Nuevo Leon?</p>
+                            <ul>
+                              <input type="radio" value="0" name="q3">
+                              <label>Linares</label>
+                              <br>
+                              <input id="correct3" type="radio" name="q3" value="1">
+                              <label>Monterrey</label>
+                              <br>
+                              <input type="radio" name="q3" value="0">
+                              <label>Arteaga</label>
+                              <br>
+                              <input type="radio" name="q3" value="0">
+                              <label>Coahuila</label>
+                            </ul>
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p class="question">4. Which culture mixture is common in Nuevo Leon?</p>
+                            <ul>
+                              <input type="radio" name="q4" value="0">
+                              <label>Spanish and british</label>
+                              <br>
+                              <input type="radio" name="q4" value="0">
+                              <label>Spanish and french</label>
+                              <br>
+                              <input type="radio" name="q4" value="0">
+                              <label>American and portuguese</label>
+                              <br>
+                              <input id="correct4" type="radio" name="q4" value="1">
+                              <label>Spanish and american</label>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  <div>
+                    <button onclick="submit()">Submit Answers</button>
+                  </div>
+                </td>
+              </tr>
+            </table>
+              </div>
+              <div class="w3-half">
+                <img src="assets/hint_cover.jpeg" alt="Click to get a hint about a quiz question" id="myImage" width="100%" onclick="imageNuevoLeon()">
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer>
+          <div class="w3-container" width=100%>
+            <table>
+                <tr>
+                    <th rowspan="3"><a href="homepage.html" class="bold">Home</a></th>
+                    <th><a href="villa_de_santiago.html">Villa de Santiago</a></th>
+                    <td><a href="villa_de_santiago.html#villa_history">History</a></td>
+                    <td><a href="villa_de_santiago.html#villa_places">Places to Visit</a></td>
+                    <td><a href="villa_de_santiago.html#villa_food">What to Eat</a></td>
+                    <th rowspan="3">
+                        <p class="contact_us">Contact Us</p>
+                        <div class="two_images">
+                          <img src="assets/13_icon_links_logo.png" alt="Link Icon" height="25">
+                          <a href="mailto:turisteandolikearegio@gmail.com" target="_blank">
+                          <img src="assets/10_icon_email_logo.png" alt="Email Logo" height="20"></a>
+                        </div>
+                        <div class="two_images">
+                          <img src="assets/13_icon_links_logo.png" alt="Link Icon" height="25">
+                          <a href="https://www.facebook.com/turisteando.likearegio.5" target="_blank">
+                          <img src="assets/11_icon_facebook_logo.png" alt="Facebook Logo" height="25"></a>
+                        </div>
+                        <div class="two_images">
+                          <img src="assets/13_icon_links_logo.png" alt="Link Icon" height="25">
+                          <a href="https://www.instagram.com/turisteando_like_a_regio?igshid=1g3o70cek1ygc" target="_blank">
+                          <img src="assets/12_icon_instagram_Logo.png" alt="Instagram Logo" height="25"></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th><a href="arteaga.html">Arteaga</a></th>
+                    <td><a href="arteaga.html#arteaga_history">History</a></td>
+                    <td><a href="arteaga.html#arteaga_places">Places to Visit</a></td>
+                    <td><a href="arteaga.html#arteaga_food">What to Eat</a></td>
+
+                </tr>
+                <tr>
+                    <th><a href="linares.html">Linares</a></th>
+                    <td><a href="linares.html#linares_history">History</a></td>
+                    <td><a href="linares.html#linares_places">Places to Visit</a></td>
+                    <td><a href="linares.html#linares_food">What to Eat</a></td>
+                </tr>
+            </table>
+          </div>
+        </footer>
+    </body>
+</html>
